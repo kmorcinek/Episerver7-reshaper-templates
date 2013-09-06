@@ -1,45 +1,10 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/Description/@EntryValue">Block</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/Text/@EntryValue">using EPiServer.Core;&#xD;
-using EPiServer.DataAnnotations;&#xD;
-&#xD;
-$HEADER$namespace $NAMESPACE$&#xD;
-{&#xD;
-  [ContentType(GUID = "$nguid$")]&#xD;
-  public class $CLASS$ : BlockData {$END$}&#xD;
-}</s:String>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/Reformat/@EntryValue">True</s:Boolean>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/Categories/=Imported_00202013_002D09_002D06/@EntryIndexedValue">Imported 2013-09-06</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/Categories/=Episerver7/@EntryIndexedValue">Episerver7</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/CustomProperties/=FileName/@EntryIndexedValue">Block</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/Scope/=E8F0594528C33E45BBFEC6CFE851095D/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/Scope/=E8F0594528C33E45BBFEC6CFE851095D/Type/@EntryValue">InCSharpProjectFile</s:String>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/Field/=HEADER/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/Field/=HEADER/Expression/@EntryValue">fileheader()</s:String>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/Field/=HEADER/Order/@EntryValue">0</s:Int64>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/Field/=CLASS/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/Field/=CLASS/Expression/@EntryValue">getFileNameWithoutExtension()</s:String>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/Field/=CLASS/InitialRange/@EntryValue">-1</s:Int64>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/Field/=CLASS/Order/@EntryValue">1</s:Int64>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/Field/=NAMESPACE/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/Field/=NAMESPACE/Expression/@EntryValue">fileDefaultNamespace()</s:String>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/Field/=NAMESPACE/InitialRange/@EntryValue">-1</s:Int64>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/Field/=NAMESPACE/Order/@EntryValue">2</s:Int64>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/Field/=nguid/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/Field/=nguid/Expression/@EntryValue">guid()</s:String>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/Field/=nguid/InitialRange/@EntryValue">-1</s:Int64>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/Field/=nguid/Order/@EntryValue">3</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=21EC0D3906DFC246B502B9F3F12C7AA7/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=21EC0D3906DFC246B502B9F3F12C7AA7/Description/@EntryValue">PageData</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=21EC0D3906DFC246B502B9F3F12C7AA7/Text/@EntryValue">using EPiServer.Core;&#xD;
 using EPiServer.DataAnnotations;&#xD;
 &#xD;
-$HEADER$namespace $NAMESPACE$&#xD;
+namespace $NAMESPACE$&#xD;
 {&#xD;
   [ContentType(GUID = "$nguid$")]&#xD;
   public class $CLASS$ : PageData &#xD;
@@ -47,11 +12,11 @@ $HEADER$namespace $NAMESPACE$&#xD;
 }</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=21EC0D3906DFC246B502B9F3F12C7AA7/Reformat/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=21EC0D3906DFC246B502B9F3F12C7AA7/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=21EC0D3906DFC246B502B9F3F12C7AA7/Categories/=Imported_00202013_002D09_002D06/@EntryIndexedValue">Imported 2013-09-06</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=21EC0D3906DFC246B502B9F3F12C7AA7/Categories/=Episerver7/@EntryIndexedValue">Episerver7</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=21EC0D3906DFC246B502B9F3F12C7AA7/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=21EC0D3906DFC246B502B9F3F12C7AA7/Categories/=Imported_00202013_002D09_002D06/@EntryIndexedValue">Imported 2013-09-06</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=21EC0D3906DFC246B502B9F3F12C7AA7/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=21EC0D3906DFC246B502B9F3F12C7AA7/CustomProperties/=FileName/@EntryIndexedValue">Page</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=21EC0D3906DFC246B502B9F3F12C7AA7/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=21EC0D3906DFC246B502B9F3F12C7AA7/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=21EC0D3906DFC246B502B9F3F12C7AA7/Scope/=E8F0594528C33E45BBFEC6CFE851095D/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=21EC0D3906DFC246B502B9F3F12C7AA7/Scope/=E8F0594528C33E45BBFEC6CFE851095D/Type/@EntryValue">InCSharpProjectFile</s:String>
@@ -67,9 +32,6 @@ $HEADER$namespace $NAMESPACE$&#xD;
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=21EC0D3906DFC246B502B9F3F12C7AA7/Field/=nguid/Expression/@EntryValue">guid()</s:String>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=21EC0D3906DFC246B502B9F3F12C7AA7/Field/=nguid/InitialRange/@EntryValue">-1</s:Int64>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=21EC0D3906DFC246B502B9F3F12C7AA7/Field/=nguid/Order/@EntryValue">2</s:Int64>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=21EC0D3906DFC246B502B9F3F12C7AA7/Field/=HEADER/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=21EC0D3906DFC246B502B9F3F12C7AA7/Field/=HEADER/Expression/@EntryValue">fileheader()</s:String>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=21EC0D3906DFC246B502B9F3F12C7AA7/Field/=HEADER/Order/@EntryValue">3</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6635DA1E78305E4B9D47169D70908FB2/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6635DA1E78305E4B9D47169D70908FB2/Description/@EntryValue">PageDate more</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6635DA1E78305E4B9D47169D70908FB2/Text/@EntryValue">using System;&#xD;
@@ -78,7 +40,7 @@ using EPiServer.Core;&#xD;
 using EPiServer.DataAnnotations;&#xD;
 using EPiServer.Web;&#xD;
 &#xD;
-$HEADER$namespace $NAMESPACE$&#xD;
+namespace $NAMESPACE$&#xD;
 {&#xD;
   [ContentType(GUID = "$nguid$")]&#xD;
   public class $CLASS$ : PageData &#xD;
@@ -87,8 +49,8 @@ $HEADER$namespace $NAMESPACE$&#xD;
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6635DA1E78305E4B9D47169D70908FB2/Reformat/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6635DA1E78305E4B9D47169D70908FB2/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6635DA1E78305E4B9D47169D70908FB2/Categories/=Episerver7/@EntryIndexedValue">Episerver7</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6635DA1E78305E4B9D47169D70908FB2/CustomProperties/=FileName/@EntryIndexedValue">Page</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6635DA1E78305E4B9D47169D70908FB2/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6635DA1E78305E4B9D47169D70908FB2/CustomProperties/=FileName/@EntryIndexedValue">Page</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6635DA1E78305E4B9D47169D70908FB2/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6635DA1E78305E4B9D47169D70908FB2/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6635DA1E78305E4B9D47169D70908FB2/Scope/=E8F0594528C33E45BBFEC6CFE851095D/@KeyIndexDefined">True</s:Boolean>
@@ -105,6 +67,69 @@ $HEADER$namespace $NAMESPACE$&#xD;
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6635DA1E78305E4B9D47169D70908FB2/Field/=CLASS/Expression/@EntryValue">getFileNameWithoutExtension()</s:String>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6635DA1E78305E4B9D47169D70908FB2/Field/=CLASS/InitialRange/@EntryValue">-1</s:Int64>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6635DA1E78305E4B9D47169D70908FB2/Field/=CLASS/Order/@EntryValue">2</s:Int64>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6635DA1E78305E4B9D47169D70908FB2/Field/=HEADER/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6635DA1E78305E4B9D47169D70908FB2/Field/=HEADER/Expression/@EntryValue">fileheader()</s:String>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6635DA1E78305E4B9D47169D70908FB2/Field/=HEADER/Order/@EntryValue">3</s:Int64></wpf:ResourceDictionary>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/Description/@EntryValue">Block</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/Text/@EntryValue">using EPiServer.Core;&#xD;
+using EPiServer.DataAnnotations;&#xD;
+&#xD;
+namespace $NAMESPACE$&#xD;
+{&#xD;
+  [ContentType(GUID = "$nguid$")]&#xD;
+  public class $CLASS$ : BlockData {$END$}&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/Categories/=Episerver7/@EntryIndexedValue">Episerver7</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/Categories/=Imported_00202013_002D09_002D06/@EntryIndexedValue">Imported 2013-09-06</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/CustomProperties/=FileName/@EntryIndexedValue">Block</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/Scope/=E8F0594528C33E45BBFEC6CFE851095D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/Scope/=E8F0594528C33E45BBFEC6CFE851095D/Type/@EntryValue">InCSharpProjectFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/Field/=CLASS/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/Field/=CLASS/Expression/@EntryValue">getFileNameWithoutExtension()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/Field/=CLASS/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/Field/=CLASS/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/Field/=NAMESPACE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/Field/=NAMESPACE/Expression/@EntryValue">fileDefaultNamespace()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/Field/=NAMESPACE/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/Field/=NAMESPACE/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/Field/=nguid/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/Field/=nguid/Expression/@EntryValue">guid()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/Field/=nguid/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=13416A7F71E5E34CBFFE48D6BB0564B6/Field/=nguid/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6CC164733FFE024FB0C9DD2F0F5F3FA2/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6CC164733FFE024FB0C9DD2F0F5F3FA2/Description/@EntryValue">Interface with contract</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6CC164733FFE024FB0C9DD2F0F5F3FA2/Text/@EntryValue">using System.Diagnostics.Contracts;&#xD;
+&#xD;
+namespace $NAMESPACE$&#xD;
+{&#xD;
+    [ContractClass(typeof($CLASS$Contract))]&#xD;
+    public interface I$CLASS$&#xD;
+    {&#xD;
+    }&#xD;
+&#xD;
+    [ContractClassFor(typeof(I$CLASS$))]&#xD;
+    public abstract class $CLASS$Contract&#xD;
+    {&#xD;
+&#xD;
+    }&#xD;
+}</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6CC164733FFE024FB0C9DD2F0F5F3FA2/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6CC164733FFE024FB0C9DD2F0F5F3FA2/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6CC164733FFE024FB0C9DD2F0F5F3FA2/Categories/=Episerver7/@EntryIndexedValue">Episerver7</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6CC164733FFE024FB0C9DD2F0F5F3FA2/CustomProperties/=FileName/@EntryIndexedValue">Factory</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6CC164733FFE024FB0C9DD2F0F5F3FA2/CustomProperties/=Extension/@EntryIndexedValue">cs</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6CC164733FFE024FB0C9DD2F0F5F3FA2/CustomProperties/=ValidateFileName/@EntryIndexedValue">False</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6CC164733FFE024FB0C9DD2F0F5F3FA2/Applicability/=File/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6CC164733FFE024FB0C9DD2F0F5F3FA2/Scope/=E8F0594528C33E45BBFEC6CFE851095D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6CC164733FFE024FB0C9DD2F0F5F3FA2/Scope/=E8F0594528C33E45BBFEC6CFE851095D/Type/@EntryValue">InCSharpProjectFile</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6CC164733FFE024FB0C9DD2F0F5F3FA2/Field/=CLASS/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6CC164733FFE024FB0C9DD2F0F5F3FA2/Field/=CLASS/Expression/@EntryValue">getFileNameWithoutExtension()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6CC164733FFE024FB0C9DD2F0F5F3FA2/Field/=CLASS/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6CC164733FFE024FB0C9DD2F0F5F3FA2/Field/=CLASS/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6CC164733FFE024FB0C9DD2F0F5F3FA2/Field/=NAMESPACE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6CC164733FFE024FB0C9DD2F0F5F3FA2/Field/=NAMESPACE/Expression/@EntryValue">fileDefaultNamespace()</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6CC164733FFE024FB0C9DD2F0F5F3FA2/Field/=NAMESPACE/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=6CC164733FFE024FB0C9DD2F0F5F3FA2/Field/=NAMESPACE/Order/@EntryValue">1</s:Int64></wpf:ResourceDictionary>
